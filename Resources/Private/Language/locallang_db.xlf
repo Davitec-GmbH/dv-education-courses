@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="messages" date="2026-03-31T00:00:00Z" product-name="dv_education_courses">
+        <header/><body>
+            <trans-unit id="tx_dveducationcourses_domain_model_course"><source>Course</source></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_course.title"><source>Title</source></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_course.description"><source>Description</source></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_course.content"><source>Content</source></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_course.objectives"><source>Objectives</source></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_course.target_groups"><source>Target Groups</source></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_course.admission_requirements"><source>Admission Requirements</source></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_course.slug"><source>URL Segment</source></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_course.type"><source>Type</source></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_course.contact_persons"><source>Contact Persons</source></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_course.events"><source>Events</source></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_course.similar_courses"><source>Similar Courses</source></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_course.images"><source>Images</source></trans-unit>
+            <trans-unit id="tab.content"><source>Content</source></trans-unit>
+            <trans-unit id="tab.relations"><source>Relations</source></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_event"><source>Event</source></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_event.title"><source>Title</source></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_event.event_code"><source>Event Code</source></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_event.description"><source>Description</source></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_event.startdate"><source>Start Date</source></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_event.enddate"><source>End Date</source></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_event.duration"><source>Duration</source></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_event.price"><source>Price</source></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_event.location"><source>Location</source></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_event.booked_up"><source>Booked Up</source></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_event.on_request"><source>On Request</source></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_event.slug"><source>URL Segment</source></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_event.single_events"><source>Schedule (Single Events)</source></trans-unit>
+            <trans-unit id="tab.schedule"><source>Schedule</source></trans-unit>
+            <trans-unit id="tab.pricing"><source>Pricing</source></trans-unit>
+            <trans-unit id="tab.location"><source>Location</source></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_singleevent"><source>Single Event</source></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_singleevent.title"><source>Title</source></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_singleevent.startdate"><source>Start</source></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_singleevent.enddate"><source>End</source></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_location"><source>Location</source></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_location.name"><source>Name</source></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_location.city"><source>City</source></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_location.zipcode"><source>ZIP Code</source></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_location.street"><source>Street</source></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_type"><source>Course Type</source></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_type.title"><source>Title</source></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_type.description"><source>Description</source></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_type.slug"><source>URL Segment</source></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_contactperson"><source>Contact Person</source></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_contactperson.salutation"><source>Salutation</source></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_contactperson.title"><source>Title</source></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_contactperson.first_name"><source>First Name</source></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_contactperson.last_name"><source>Last Name</source></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_contactperson.phone"><source>Phone</source></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_contactperson.email"><source>Email</source></trans-unit>
+        </body>
+    </file>
+</xliff>

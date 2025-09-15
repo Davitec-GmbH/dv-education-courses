@@ -1,0 +1,35 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:layout name="Default" />
+<f:section name="content">
+    <article class="event-detail">
+        <h1>{event.title}</h1>
+        <f:if condition="{event.bookedUp}"><span class="badge-booked-up"><f:translate key="LLL:EXT:dv_education_courses/Resources/Private/Language/locallang.xlf:event.bookedUp" /></span></f:if>
+
+        <dl>
+            <f:if condition="{event.eventCode}"><dt><f:translate key="LLL:EXT:dv_education_courses/Resources/Private/Language/locallang.xlf:event.show.eventCode" /></dt><dd>{event.eventCode}</dd></f:if>
+            <f:if condition="{event.startdate}"><dt><f:translate key="LLL:EXT:dv_education_courses/Resources/Private/Language/locallang.xlf:event.show.startdate" /></dt><dd><f:format.date format="d.m.Y">{event.startdate}</f:format.date></dd></f:if>
+            <f:if condition="{event.enddate}"><dt><f:translate key="LLL:EXT:dv_education_courses/Resources/Private/Language/locallang.xlf:event.show.enddate" /></dt><dd><f:format.date format="d.m.Y">{event.enddate}</f:format.date></dd></f:if>
+            <f:if condition="{event.duration}"><dt><f:translate key="LLL:EXT:dv_education_courses/Resources/Private/Language/locallang.xlf:event.show.duration" /></dt><dd>{event.duration}</dd></f:if>
+            <f:if condition="{event.onRequest}">
+                <f:else><dt><f:translate key="LLL:EXT:dv_education_courses/Resources/Private/Language/locallang.xlf:event.show.price" /></dt><dd>{event.formattedPrice}</dd></f:else>
+            </f:if>
+            <f:if condition="{event.onRequest}"><dt><f:translate key="LLL:EXT:dv_education_courses/Resources/Private/Language/locallang.xlf:event.show.price" /></dt><dd><f:translate key="LLL:EXT:dv_education_courses/Resources/Private/Language/locallang.xlf:event.onRequest" /></dd></f:if>
+            <f:if condition="{event.location}"><dt><f:translate key="LLL:EXT:dv_education_courses/Resources/Private/Language/locallang.xlf:event.show.location" /></dt><dd>{event.location.fullAddress}</dd></f:if>
+        </dl>
+
+        <f:if condition="{event.description}"><section><f:format.html>{event.description}</f:format.html></section></f:if>
+
+        <f:if condition="{event.singleEvents -> f:count()}">
+            <section>
+                <h2><f:translate key="LLL:EXT:dv_education_courses/Resources/Private/Language/locallang.xlf:event.show.schedule" /></h2>
+                <ul>
+                    <f:for each="{event.singleEvents}" as="se">
+                        <li><strong>{se.title}</strong>: <f:format.date format="d.m.Y H:i">{se.startdate}</f:format.date><f:if condition="{se.enddate}"> — <f:format.date format="d.m.Y H:i">{se.enddate}</f:format.date></f:if></li>
+                    </f:for>
+                </ul>
+            </section>
+        </f:if>
+    </article>
+    <nav><a href="{f:uri.page(pageUid: listPid)}"><f:translate key="LLL:EXT:dv_education_courses/Resources/Private/Language/locallang.xlf:event.show.backToList" /></a></nav>
+</f:section>
+</html>

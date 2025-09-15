@@ -1,0 +1,17 @@
+plugin.tx_dveducationcourses {
+    view {
+        templateRootPaths.0 = EXT:dv_education_courses/Resources/Private/Templates/
+        partialRootPaths.0 = EXT:dv_education_courses/Resources/Private/Partials/
+        layoutRootPaths.0 = EXT:dv_education_courses/Resources/Private/Layouts/
+    }
+    persistence {
+        storagePid = {$plugin.tx_dveducationcourses.persistence.storagePid}
+    }
+    settings {
+        detailPid = {$plugin.tx_dveducationcourses.settings.detailPid}
+        listPid = {$plugin.tx_dveducationcourses.settings.listPid}
+        eventDetailPid = {$plugin.tx_dveducationcourses.settings.eventDetailPid}
+        courseDetailPid = {$plugin.tx_dveducationcourses.settings.courseDetailPid}
+        itemsPerPage = {$plugin.tx_dveducationcourses.settings.itemsPerPage}
+    }
+}

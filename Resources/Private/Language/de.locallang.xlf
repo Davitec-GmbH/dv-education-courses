@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2026-03-31T00:00:00Z" product-name="dv_education_courses">
+        <header/><body>
+            <trans-unit id="plugin.courselist.title"><source>Course List</source><target>Kursliste</target></trans-unit>
+            <trans-unit id="plugin.coursedetail.title"><source>Course Detail</source><target>Kursdetail</target></trans-unit>
+            <trans-unit id="plugin.eventlist.title"><source>Event List</source><target>Veranstaltungsliste</target></trans-unit>
+            <trans-unit id="plugin.eventdetail.title"><source>Event Detail</source><target>Veranstaltungsdetail</target></trans-unit>
+            <trans-unit id="course.list.headline"><source>Courses</source><target>Kurse</target></trans-unit>
+            <trans-unit id="course.list.filter"><source>Filter courses</source><target>Kurse filtern</target></trans-unit>
+            <trans-unit id="course.list.search"><source>Search</source><target>Suche</target></trans-unit>
+            <trans-unit id="course.list.type"><source>Type</source><target>Typ</target></trans-unit>
+            <trans-unit id="course.list.allTypes"><source>All types</source><target>Alle Typen</target></trans-unit>
+            <trans-unit id="course.list.submit"><source>Search</source><target>Suchen</target></trans-unit>
+            <trans-unit id="course.list.reset"><source>Reset</source><target>Zurücksetzen</target></trans-unit>
+            <trans-unit id="course.list.noResults"><source>No courses found.</source><target>Keine Kurse gefunden.</target></trans-unit>
+            <trans-unit id="course.show.description"><source>Description</source><target>Beschreibung</target></trans-unit>
+            <trans-unit id="course.show.content"><source>Content</source><target>Inhalte</target></trans-unit>
+            <trans-unit id="course.show.objectives"><source>Objectives</source><target>Lernziele</target></trans-unit>
+            <trans-unit id="course.show.targetGroups"><source>Target Groups</source><target>Zielgruppen</target></trans-unit>
+            <trans-unit id="course.show.admissionRequirements"><source>Admission Requirements</source><target>Zulassungsvoraussetzungen</target></trans-unit>
+            <trans-unit id="course.show.contactPersons"><source>Contact Persons</source><target>Ansprechpartner</target></trans-unit>
+            <trans-unit id="course.show.events"><source>Upcoming Events</source><target>Kommende Veranstaltungen</target></trans-unit>
+            <trans-unit id="course.show.suggestions"><source>Similar Courses</source><target>Ähnliche Kurse</target></trans-unit>
+            <trans-unit id="course.show.backToList"><source>Back to course list</source><target>Zurück zur Kursliste</target></trans-unit>
+            <trans-unit id="event.list.headline"><source>Upcoming Events</source><target>Kommende Veranstaltungen</target></trans-unit>
+            <trans-unit id="event.list.noResults"><source>No upcoming events.</source><target>Keine kommenden Veranstaltungen.</target></trans-unit>
+            <trans-unit id="event.show.eventCode"><source>Event Code</source><target>Veranstaltungsnummer</target></trans-unit>
+            <trans-unit id="event.show.startdate"><source>Start</source><target>Beginn</target></trans-unit>
+            <trans-unit id="event.show.enddate"><source>End</source><target>Ende</target></trans-unit>
+            <trans-unit id="event.show.duration"><source>Duration</source><target>Dauer</target></trans-unit>
+            <trans-unit id="event.show.price"><source>Price</source><target>Preis</target></trans-unit>
+            <trans-unit id="event.show.location"><source>Location</source><target>Veranstaltungsort</target></trans-unit>
+            <trans-unit id="event.show.schedule"><source>Schedule</source><target>Terminplan</target></trans-unit>
+            <trans-unit id="event.show.backToList"><source>Back to event list</source><target>Zurück zur Veranstaltungsliste</target></trans-unit>
+            <trans-unit id="event.bookedUp"><source>Booked up</source><target>Ausgebucht</target></trans-unit>
+            <trans-unit id="event.onRequest"><source>On request</source><target>Auf Anfrage</target></trans-unit>
+            <trans-unit id="flexform.general"><source>General</source><target>Allgemein</target></trans-unit>
+            <trans-unit id="flexform.detailPid"><source>Detail page</source><target>Detailseite</target></trans-unit>
+            <trans-unit id="flexform.listPid"><source>List page</source><target>Listenseite</target></trans-unit>
+            <trans-unit id="flexform.itemsPerPage"><source>Items per page</source><target>Einträge pro Seite</target></trans-unit>
+        </body>
+    </file>
+</xliff>

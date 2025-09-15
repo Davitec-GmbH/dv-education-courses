@@ -1,0 +1,7 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<article class="course-card">
+    <h3><f:link.action action="show" controller="Course" pluginName="CourseDetail" pageUid="{settings.detailPid}" arguments="{course: course}">{course.title}</f:link.action></h3>
+    <f:if condition="{course.type}"><span class="course-type">{course.type.title}</span></f:if>
+    <f:if condition="{course.description}"><p>{course.description -> f:format.crop(maxCharacters: 150, append: '...')}</p></f:if>
+</article>
+</html>

@@ -1,0 +1,18 @@
+plugin.tx_dveducationcourses {
+    persistence {
+        # cat=plugin.tx_dveducationcourses/storage; type=int; label=Storage PID
+        storagePid =
+    }
+    settings {
+        # cat=plugin.tx_dveducationcourses/settings; type=int; label=Course detail page UID
+        detailPid =
+        # cat=plugin.tx_dveducationcourses/settings; type=int; label=Course list page UID
+        listPid =
+        # cat=plugin.tx_dveducationcourses/settings; type=int; label=Event detail page UID
+        eventDetailPid =
+        # cat=plugin.tx_dveducationcourses/settings; type=int; label=Course detail page UID (for event views)
+        courseDetailPid =
+        # cat=plugin.tx_dveducationcourses/settings; type=int; label=Items per page
+        itemsPerPage = 20
+    }
+}

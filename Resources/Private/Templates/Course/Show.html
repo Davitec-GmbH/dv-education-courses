@@ -1,0 +1,60 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:layout name="Default" />
+<f:section name="content">
+    <article class="course-detail">
+        <h1>{course.title}</h1>
+        <f:if condition="{course.type}"><span class="course-type-badge">{course.type.title}</span></f:if>
+
+        <f:if condition="{course.description}">
+            <section><h2><f:translate key="LLL:EXT:dv_education_courses/Resources/Private/Language/locallang.xlf:course.show.description" /></h2><f:format.html>{course.description}</f:format.html></section>
+        </f:if>
+        <f:if condition="{course.content}">
+            <section><h2><f:translate key="LLL:EXT:dv_education_courses/Resources/Private/Language/locallang.xlf:course.show.content" /></h2><f:format.html>{course.content}</f:format.html></section>
+        </f:if>
+        <f:if condition="{course.objectives}">
+            <section><h2><f:translate key="LLL:EXT:dv_education_courses/Resources/Private/Language/locallang.xlf:course.show.objectives" /></h2><f:format.html>{course.objectives}</f:format.html></section>
+        </f:if>
+        <f:if condition="{course.targetGroups}">
+            <section><h2><f:translate key="LLL:EXT:dv_education_courses/Resources/Private/Language/locallang.xlf:course.show.targetGroups" /></h2><f:format.html>{course.targetGroups}</f:format.html></section>
+        </f:if>
+        <f:if condition="{course.admissionRequirements}">
+            <section><h2><f:translate key="LLL:EXT:dv_education_courses/Resources/Private/Language/locallang.xlf:course.show.admissionRequirements" /></h2><f:format.html>{course.admissionRequirements}</f:format.html></section>
+        </f:if>
+
+        <f:if condition="{course.contactPersons -> f:count()}">
+            <section>
+                <h2><f:translate key="LLL:EXT:dv_education_courses/Resources/Private/Language/locallang.xlf:course.show.contactPersons" /></h2>
+                <ul>
+                    <f:for each="{course.contactPersons}" as="cp">
+                        <li>{cp.name}<f:if condition="{cp.email}"> — <a href="mailto:{cp.email}">{cp.email}</a></f:if><f:if condition="{cp.phone}"> — {cp.phone}</f:if></li>
+                    </f:for>
+                </ul>
+            </section>
+        </f:if>
+
+        <f:if condition="{course.events -> f:count()}">
+            <section>
+                <h2><f:translate key="LLL:EXT:dv_education_courses/Resources/Private/Language/locallang.xlf:course.show.events" /></h2>
+                <ul>
+                    <f:for each="{course.events}" as="event">
+                        <li><f:render partial="Event/Card" arguments="{event: event, settings: settings}" /></li>
+                    </f:for>
+                </ul>
+            </section>
+        </f:if>
+
+        <f:if condition="{suggestedCourses}">
+            <section>
+                <h2><f:translate key="LLL:EXT:dv_education_courses/Resources/Private/Language/locallang.xlf:course.show.suggestions" /></h2>
+                <ul>
+                    <f:for each="{suggestedCourses}" as="sc">
+                        <li><f:link.action action="show" controller="Course" pluginName="CourseDetail" arguments="{course: sc}">{sc.title}</f:link.action></li>
+                    </f:for>
+                </ul>
+            </section>
+        </f:if>
+    </article>
+
+    <nav><a href="{f:uri.page(pageUid: listPid)}"><f:translate key="LLL:EXT:dv_education_courses/Resources/Private/Language/locallang.xlf:course.show.backToList" /></a></nav>
+</f:section>
+</html>

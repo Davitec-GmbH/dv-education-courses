@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2026-03-31T00:00:00Z" product-name="dv_education_courses">
+        <header/><body>
+            <trans-unit id="tx_dveducationcourses_domain_model_course"><source>Course</source><target>Kurs</target></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_course.title"><source>Title</source><target>Titel</target></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_course.description"><source>Description</source><target>Beschreibung</target></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_course.content"><source>Content</source><target>Inhalte</target></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_course.objectives"><source>Objectives</source><target>Lernziele</target></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_course.target_groups"><source>Target Groups</source><target>Zielgruppen</target></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_course.admission_requirements"><source>Admission Requirements</source><target>Zulassungsvoraussetzungen</target></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_course.slug"><source>URL Segment</source><target>URL-Segment</target></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_course.type"><source>Type</source><target>Typ</target></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_course.contact_persons"><source>Contact Persons</source><target>Ansprechpartner</target></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_course.events"><source>Events</source><target>Veranstaltungen</target></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_course.similar_courses"><source>Similar Courses</source><target>Ähnliche Kurse</target></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_course.images"><source>Images</source><target>Bilder</target></trans-unit>
+            <trans-unit id="tab.content"><source>Content</source><target>Inhalte</target></trans-unit>
+            <trans-unit id="tab.relations"><source>Relations</source><target>Relationen</target></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_event"><source>Event</source><target>Veranstaltung</target></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_event.title"><source>Title</source><target>Titel</target></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_event.event_code"><source>Event Code</source><target>Veranstaltungsnummer</target></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_event.description"><source>Description</source><target>Beschreibung</target></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_event.startdate"><source>Start Date</source><target>Startdatum</target></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_event.enddate"><source>End Date</source><target>Enddatum</target></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_event.duration"><source>Duration</source><target>Dauer</target></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_event.price"><source>Price</source><target>Preis</target></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_event.location"><source>Location</source><target>Veranstaltungsort</target></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_event.booked_up"><source>Booked Up</source><target>Ausgebucht</target></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_event.on_request"><source>On Request</source><target>Auf Anfrage</target></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_event.slug"><source>URL Segment</source><target>URL-Segment</target></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_event.single_events"><source>Schedule</source><target>Terminplan</target></trans-unit>
+            <trans-unit id="tab.schedule"><source>Schedule</source><target>Termine</target></trans-unit>
+            <trans-unit id="tab.pricing"><source>Pricing</source><target>Preise</target></trans-unit>
+            <trans-unit id="tab.location"><source>Location</source><target>Ort</target></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_singleevent"><source>Single Event</source><target>Einzeltermin</target></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_singleevent.title"><source>Title</source><target>Titel</target></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_singleevent.startdate"><source>Start</source><target>Beginn</target></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_singleevent.enddate"><source>End</source><target>Ende</target></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_location"><source>Location</source><target>Veranstaltungsort</target></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_location.name"><source>Name</source><target>Name</target></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_location.city"><source>City</source><target>Stadt</target></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_location.zipcode"><source>ZIP Code</source><target>PLZ</target></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_location.street"><source>Street</source><target>Straße</target></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_type"><source>Course Type</source><target>Kurstyp</target></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_type.title"><source>Title</source><target>Titel</target></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_type.description"><source>Description</source><target>Beschreibung</target></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_type.slug"><source>URL Segment</source><target>URL-Segment</target></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_contactperson"><source>Contact Person</source><target>Ansprechpartner</target></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_contactperson.salutation"><source>Salutation</source><target>Anrede</target></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_contactperson.title"><source>Title</source><target>Titel</target></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_contactperson.first_name"><source>First Name</source><target>Vorname</target></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_contactperson.last_name"><source>Last Name</source><target>Nachname</target></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_contactperson.phone"><source>Phone</source><target>Telefon</target></trans-unit>
+            <trans-unit id="tx_dveducationcourses_domain_model_contactperson.email"><source>Email</source><target>E-Mail</target></trans-unit>
+        </body>
+    </file>
+</xliff>

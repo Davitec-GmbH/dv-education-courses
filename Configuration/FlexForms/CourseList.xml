@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3FlexForms>
+    <sheets>
+        <sDEF>
+            <ROOT>
+                <sheetTitle>LLL:EXT:dv_education_courses/Resources/Private/Language/locallang.xlf:flexform.general</sheetTitle>
+                <type>array</type>
+                <el>
+                    <settings.detailPid>
+                        <label>LLL:EXT:dv_education_courses/Resources/Private/Language/locallang.xlf:flexform.detailPid</label>
+                        <config>
+                            <type>group</type>
+                            <allowed>pages</allowed>
+                            <size>1</size>
+                            <maxitems>1</maxitems>
+                        </config>
+                    </settings.detailPid>
+                    <settings.listPid>
+                        <label>LLL:EXT:dv_education_courses/Resources/Private/Language/locallang.xlf:flexform.listPid</label>
+                        <config>
+                            <type>group</type>
+                            <allowed>pages</allowed>
+                            <size>1</size>
+                            <maxitems>1</maxitems>
+                        </config>
+                    </settings.listPid>
+                    <settings.itemsPerPage>
+                        <label>LLL:EXT:dv_education_courses/Resources/Private/Language/locallang.xlf:flexform.itemsPerPage</label>
+                        <config>
+                            <type>input</type>
+                            <size>5</size>
+                            <default>20</default>
+                        </config>
+                    </settings.itemsPerPage>
+                </el>
+            </ROOT>
+        </sDEF>
+    </sheets>
+</T3FlexForms>

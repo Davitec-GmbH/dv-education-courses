@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="messages" date="2026-03-31T00:00:00Z" product-name="dv_education_courses">
+        <header/><body>
+            <trans-unit id="plugin.courselist.title"><source>Course List</source></trans-unit>
+            <trans-unit id="plugin.coursedetail.title"><source>Course Detail</source></trans-unit>
+            <trans-unit id="plugin.eventlist.title"><source>Event List</source></trans-unit>
+            <trans-unit id="plugin.eventdetail.title"><source>Event Detail</source></trans-unit>
+            <trans-unit id="course.list.headline"><source>Courses</source></trans-unit>
+            <trans-unit id="course.list.filter"><source>Filter courses</source></trans-unit>
+            <trans-unit id="course.list.search"><source>Search</source></trans-unit>
+            <trans-unit id="course.list.type"><source>Type</source></trans-unit>
+            <trans-unit id="course.list.allTypes"><source>All types</source></trans-unit>
+            <trans-unit id="course.list.submit"><source>Search</source></trans-unit>
+            <trans-unit id="course.list.reset"><source>Reset</source></trans-unit>
+            <trans-unit id="course.list.noResults"><source>No courses found.</source></trans-unit>
+            <trans-unit id="course.show.description"><source>Description</source></trans-unit>
+            <trans-unit id="course.show.content"><source>Content</source></trans-unit>
+            <trans-unit id="course.show.objectives"><source>Objectives</source></trans-unit>
+            <trans-unit id="course.show.targetGroups"><source>Target Groups</source></trans-unit>
+            <trans-unit id="course.show.admissionRequirements"><source>Admission Requirements</source></trans-unit>
+            <trans-unit id="course.show.contactPersons"><source>Contact Persons</source></trans-unit>
+            <trans-unit id="course.show.events"><source>Upcoming Events</source></trans-unit>
+            <trans-unit id="course.show.suggestions"><source>Similar Courses</source></trans-unit>
+            <trans-unit id="course.show.backToList"><source>Back to course list</source></trans-unit>
+            <trans-unit id="event.list.headline"><source>Upcoming Events</source></trans-unit>
+            <trans-unit id="event.list.noResults"><source>No upcoming events.</source></trans-unit>
+            <trans-unit id="event.show.eventCode"><source>Event Code</source></trans-unit>
+            <trans-unit id="event.show.startdate"><source>Start</source></trans-unit>
+            <trans-unit id="event.show.enddate"><source>End</source></trans-unit>
+            <trans-unit id="event.show.duration"><source>Duration</source></trans-unit>
+            <trans-unit id="event.show.price"><source>Price</source></trans-unit>
+            <trans-unit id="event.show.location"><source>Location</source></trans-unit>
+            <trans-unit id="event.show.schedule"><source>Schedule</source></trans-unit>
+            <trans-unit id="event.show.backToList"><source>Back to event list</source></trans-unit>
+            <trans-unit id="event.bookedUp"><source>Booked up</source></trans-unit>
+            <trans-unit id="event.onRequest"><source>On request</source></trans-unit>
+            <trans-unit id="flexform.general"><source>General</source></trans-unit>
+            <trans-unit id="flexform.detailPid"><source>Detail page</source></trans-unit>
+            <trans-unit id="flexform.listPid"><source>List page</source></trans-unit>
+            <trans-unit id="flexform.itemsPerPage"><source>Items per page</source></trans-unit>
+        </body>
+    </file>
+</xliff>

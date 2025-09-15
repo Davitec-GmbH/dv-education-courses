@@ -1,0 +1,37 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:layout name="Default" />
+<f:section name="content">
+    <h1><f:translate key="LLL:EXT:dv_education_courses/Resources/Private/Language/locallang.xlf:course.list.headline" /></h1>
+
+    <section class="course-search">
+        <f:form action="list" controller="Course" pluginName="CourseList" method="post">
+            <fieldset>
+                <legend class="sr-only"><f:translate key="LLL:EXT:dv_education_courses/Resources/Private/Language/locallang.xlf:course.list.filter" /></legend>
+                <label for="course-search"><f:translate key="LLL:EXT:dv_education_courses/Resources/Private/Language/locallang.xlf:course.list.search" /></label>
+                <f:form.textfield name="searchTerm" id="course-search" value="{searchTerm}" />
+
+                <label for="course-type"><f:translate key="LLL:EXT:dv_education_courses/Resources/Private/Language/locallang.xlf:course.list.type" /></label>
+                <f:form.select name="type" id="course-type" value="{selectedType}" options="{types}" optionValueField="uid" optionLabelField="title" prependOptionLabel="{f:translate(key: 'LLL:EXT:dv_education_courses/Resources/Private/Language/locallang.xlf:course.list.allTypes')}" prependOptionValue="0" />
+
+                <f:form.submit value="{f:translate(key: 'LLL:EXT:dv_education_courses/Resources/Private/Language/locallang.xlf:course.list.submit')}" />
+                <f:if condition="{searchTerm} || {selectedType}">
+                    <a href="{f:uri.page(pageUid: listPid)}"><f:translate key="LLL:EXT:dv_education_courses/Resources/Private/Language/locallang.xlf:course.list.reset" /></a>
+                </f:if>
+            </fieldset>
+        </f:form>
+    </section>
+
+    <f:if condition="{courses}">
+        <f:then>
+            <ul class="course-list" role="list">
+                <f:for each="{courses}" as="course">
+                    <li><f:render partial="Course/Card" arguments="{course: course, settings: settings}" /></li>
+                </f:for>
+            </ul>
+        </f:then>
+        <f:else>
+            <p><f:translate key="LLL:EXT:dv_education_courses/Resources/Private/Language/locallang.xlf:course.list.noResults" /></p>
+        </f:else>
+    </f:if>
+</f:section>
+</html>

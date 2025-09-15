@@ -1,0 +1,11 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<article class="event-card">
+    <h3><f:link.action action="show" controller="Event" pluginName="EventDetail" pageUid="{settings.eventDetailPid}" arguments="{event: event}">{event.title}</f:link.action></h3>
+    <f:if condition="{event.startdate}"><time datetime="{f:format.date(date: event.startdate, format: 'Y-m-d')}"><f:format.date format="d.m.Y">{event.startdate}</f:format.date></time></f:if>
+    <f:if condition="{event.location}"><span class="event-location">{event.location.name}, {event.location.city}</span></f:if>
+    <f:if condition="{event.onRequest}">
+        <f:else><span class="event-price">{event.formattedPrice}</span></f:else>
+    </f:if>
+    <f:if condition="{event.bookedUp}"><span class="badge-booked-up"><f:translate key="LLL:EXT:dv_education_courses/Resources/Private/Language/locallang.xlf:event.bookedUp" /></span></f:if>
+</article>
+</html>
