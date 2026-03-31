@@ -1,0 +1,5 @@
+"uid","pid","title","event_code","startdate","enddate","price","location","course","slug","sorting"
+1,1,"Future Event 1","FUT-001",1900000000,1900086400,499.99,1,1,"future-event-1",1
+2,1,"Future Event 2","FUT-002",1930000000,1930086400,299.00,2,2,"future-event-2",2
+3,1,"Running Event","RUN-001",1700000000,1900000000,750.00,1,1,"running-event",3
+4,1,"Past Event","PST-001",1700000000,1700086400,199.00,2,3,"past-event",4
