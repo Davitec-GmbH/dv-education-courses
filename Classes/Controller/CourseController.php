@@ -7,7 +7,7 @@ namespace Davitec\DvEducationCourses\Controller;
 use Davitec\DvEducationCourses\Domain\Model\Course;
 use Davitec\DvEducationCourses\Domain\Repository\CourseRepository;
 use Davitec\DvEducationCourses\Domain\Repository\TypeRepository;
-use Davitec\DvEducationCourses\Domain\Service\CourseService;
+use Davitec\DvEducationCourses\Service\CourseService;
 use Psr\Http\Message\ResponseInterface;
 use TYPO3\CMS\Extbase\Mvc\Controller\ActionController;
 

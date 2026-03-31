@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Davitec\DvEducationCourses\Domain\Service;
+namespace Davitec\DvEducationCourses\Service;
 
 use Davitec\DvEducationCourses\Domain\Model\Course;
 use Davitec\DvEducationCourses\Domain\Repository\CourseRepository;
