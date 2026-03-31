@@ -14,7 +14,7 @@ use TYPO3\CMS\Extbase\Persistence\Repository;
  */
 class CourseRepository extends Repository
 {
-    protected array $defaultOrderings = [
+    protected $defaultOrderings = [
         'title' => QueryInterface::ORDER_ASCENDING,
     ];
 

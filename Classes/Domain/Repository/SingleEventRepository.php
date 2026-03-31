@@ -9,7 +9,7 @@ use TYPO3\CMS\Extbase\Persistence\Repository;
 
 class SingleEventRepository extends Repository
 {
-    protected array $defaultOrderings = [
+    protected $defaultOrderings = [
         'startdate' => QueryInterface::ORDER_ASCENDING,
     ];
 }

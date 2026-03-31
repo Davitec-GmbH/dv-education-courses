@@ -9,7 +9,7 @@ use TYPO3\CMS\Extbase\Persistence\Repository;
 
 class LocationRepository extends Repository
 {
-    protected array $defaultOrderings = [
+    protected $defaultOrderings = [
         'name' => QueryInterface::ORDER_ASCENDING,
     ];
 }

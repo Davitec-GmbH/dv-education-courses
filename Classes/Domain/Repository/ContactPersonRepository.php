@@ -9,7 +9,7 @@ use TYPO3\CMS\Extbase\Persistence\Repository;
 
 class ContactPersonRepository extends Repository
 {
-    protected array $defaultOrderings = [
+    protected $defaultOrderings = [
         'last_name' => QueryInterface::ORDER_ASCENDING,
     ];
 }
