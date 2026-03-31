@@ -1,0 +1,5 @@
+.. This file is included by all RST files in this documentation.
+
+.. |rarr| unicode:: U+2192 .. right arrow
+.. |extension_key| replace:: dv_education_courses
+.. |package_name| replace:: davitec/dv-education-courses
