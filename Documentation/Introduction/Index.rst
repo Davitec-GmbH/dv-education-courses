@@ -60,13 +60,13 @@ The data model follows a clear three-level hierarchy:
      |-- ContactPerson (MM relation)
      |-- SimilarCourses (MM self-relation)
 
-- **Course** |rarr| **Event**: One course can have multiple scheduled events
+- **Course** → **Event**: One course can have multiple scheduled events
   (inline relation with cascade delete).
-- **Event** |rarr| **SingleEvent**: Each event can contain multiple single-day
+- **Event** → **SingleEvent**: Each event can contain multiple single-day
   entries for multi-day schedules (inline relation with cascade delete).
-- **Course** |rarr| **ContactPerson**: Many-to-many relation allowing shared
+- **Course** → **ContactPerson**: Many-to-many relation allowing shared
   contact persons across courses.
-- **Course** |rarr| **SimilarCourses**: Self-referencing many-to-many relation
+- **Course** → **SimilarCourses**: Self-referencing many-to-many relation
   for cross-linking related courses.
 
 Frontend plugins
