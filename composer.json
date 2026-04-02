@@ -35,5 +35,8 @@
         "typo3/cms": {
             "extension-key": "dv_education_courses"
         }
+    },
+    "support": {
+        "docs": "https://docs.typo3.org/p/davitec/dv-education-courses/main/en-us/Index.html"
     }
 }
